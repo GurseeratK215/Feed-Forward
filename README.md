@@ -1,84 +1,59 @@
-## FeedForward - UberEats Clone
+FeedForward
 
-FeedForward is a full-featured UberEats clone app template in Java/Kotlin for Android, iOS, Desktop & Web. It helps to build an elaborate cross-platform food delivery app such as UberEats, Foodpanda, FeedForwardHub etc using the new CodeRad tools.
+FeedForward is a socially responsible application designed to reduce food waste by redistributing leftover food from restaurants, supermarkets, and communities to nearby homeless shelters and charities. By leveraging a network of volunteers, FeedForward ensures that surplus food reaches those in need, creating a sustainable solution to hunger and food waste.
 
-<img src="https://sergeycodenameone.github.io/uber-eats-clone-banner.jpg" width="600"></img>
+Features
 
-This app was designed as a proof of concept for the [CodeRAD library](https://github.com/shannah/CodeRAD), which facilitates the development of rich, reusable UI components for Codename One.  It contains everything you should need to build a rich and reusable app with the Rapid application development principles.
+Food Donation Tracking: Restaurants, supermarkets, and individuals can list their leftover food for donation.
+Volunteer Network: Volunteers pick up and deliver the food to nearby shelters and charities.
+Charity Finder: Easily locate nearby homeless shelters and charities in need of food donations.
+Real-time Notifications: Get notified about new food donations, volunteer opportunities, and more.
+Sustainability Reports: Track the impact of your donations and volunteer work over time.
 
-## Features
+Getting Started
 
-- Light/Dark mode
-- Onboarding screens
-- Register & Sign In
-- Location
-- Search
-- Filters
-- Restaurant Categories
-- Cart - Add to Cart
-- Promo Code
-- Payments - Credit Cards Management
-- Favourites
-- Order Tracking
-- Profile
-- Optimized for both iOS and Android
-- Fully customizable codebase
-- Highly-modularized code
-
-## Screenshots
-
-Welcome               |  Sign in               | Onboarding               |  Location
-:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:
-![](https://www.codenameone.com/wp-content/uploads/2021/08/FeedForwardHub-1-Welcome.png?raw=true)|![](https://www.codenameone.com/wp-content/uploads/2021/08/FeedForwardHub-2-Sign-In.png?raw=true)|![](https://www.codenameone.com/wp-content/uploads/2021/08/FeedForwardHub-3-Onboarding.png?raw=true)|![](https://www.codenameone.com/wp-content/uploads/2021/08/FeedForwardHub-4-Location.png?raw=true)|
-
-Home               |  Restaurants List               | Restaurant Page             |  Order
-:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:
-![](https://www.codenameone.com/wp-content/uploads/2021/08/FeedForwardHub-8-Home.png?raw=true)|![](https://www.codenameone.com/wp-content/uploads/2021/08/FeedForwardHub-9-Restaurants.png?raw=true)|![](https://www.codenameone.com/wp-content/uploads/2021/08/FeedForwardHub-10-Restaurant.png?raw=true)|![](https://www.codenameone.com/wp-content/uploads/2021/08/FeedForwardHub-11-Product.png?raw=true)|
-
-
-Filter              |   Favorites               |  Add Card               | Order Placed      
-:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:
-![](https://www.codenameone.com/wp-content/uploads/2021/08/FeedForwardHub-12-Filter.png?raw=true)|![](https://www.codenameone.com/wp-content/uploads/2021/08/FeedForwardHub-7-Favorite.png?raw=true)|![](https://www.codenameone.com/wp-content/uploads/2021/08/FeedForwardHub-5-Add-Card.png?raw=true)|![](https://www.codenameone.com/wp-content/uploads/2021/08/FeedForwardHub-15-Order-Success.png?raw=true)|
-
-
-|  Order Processing       |   Order Cancelled          |  Profile           
-:-------------------------:|:-------------------------:|:-------------------------:
-![](https://www.codenameone.com/wp-content/uploads/2021/08/FeedForwardHub-13-Order-Progress.png?raw=true)|![](https://www.codenameone.com/wp-content/uploads/2021/08/FeedForwardHub-14-Order-Cancel.png?raw=true)|![](https://www.codenameone.com/wp-content/uploads/2021/08/FeedForwardHub-6-Profile.png?raw=true)|
-
-
-## Working with FeedForward Source Code
-
-Watch this quick [video](https://youtu.be/BzySM_NpcEI) to see how easy it is to run and make changes on the fly to the code.
-
-## License
-
-Apache 2.0
-
-## Demo
-
-* Download [Android demo app](https://github.com/sergeyCodenameOne/UberEatsClone/releases/download/v1.0/FeedForward.apk).
-
-<br>
-
-> **NOTE:**  The app is not connected to any backend server and all the logic is just for the visual effect. Although the app can be easly connected to any server. MVC is separated correctly to make wiring easier.
+Prerequisites
+Java 8 or higher
+Maven
+Node.js and npm (if working with the frontend)
+MongoDB
+Setup
+Clone the Repository
+bash
+Copy code
+git clone https://github.com/yourusername/FeedForward.git
+cd FeedForward
+Backend Setup
+Navigate to the backend directory (if applicable).
+Install dependencies:
+bash
+Copy code
+mvn clean install
+Run the application:
+bash
+Copy code
+mvn spring-boot:run
+Frontend Setup
+Navigate to the frontend directory (if applicable).
+Install dependencies:
+bash
+Copy code
+npm install
+Run the development server:
+bash
+Copy code
+npm start
 
 
-## Installation
+Contributing
 
-From CLI:
+We welcome contributions to FeedForward! Please fork the repository, create a new branch for your feature or bug fix, and submit a pull request. Ensure your code follows the project's coding standards and passes all tests.
 
-```
-mvn install
-```
+License
 
-Or open in your favorite IDE that supports maven (Idea, VSCode, Eclipse, NetBeans etc.).
+FeedForward is licensed under the MIT License.
 
-## Further Reading
+Acknowledgments
 
-- [Codename One](https://www.codenameone.com/)
-- [CodeRAD library](https://github.com/shannah/CodeRAD)
-- [RADChatApp](https://github.com/shannah/RADChatApp)
-
-## Credits
-
-- Created by Sergey Gerashenko, [Codename One](https://www.codenameone.com)
+Inspired by Too Good To Go, an application that fights food waste.
+Thanks to all volunteers and contributors who help make this project a success.
