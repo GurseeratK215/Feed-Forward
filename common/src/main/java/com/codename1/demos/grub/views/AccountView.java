@@ -86,7 +86,7 @@ public class AccountView extends AbstractEntityView {
             }
         });
 
-        Image grubLogo = getGlobalResources().getImage("grub-logo-full.png");
+        Image grubLogo = getGlobalResources().getImage("FeedForwardLogo.png");
         ScaleImageLabel logoLabel = new ScaleImageLabel(grubLogo){
             @Override
             public Dimension getPreferredSize() {
@@ -95,7 +95,7 @@ public class AccountView extends AbstractEntityView {
                 return new Dimension(getDisplayWidth() / 2 , (int)(width / 1.4));
             }
         };
-        Label welcomeText = new Label("WELCOME TO GRUB APP", "AccountWelcomeText");
+        Label welcomeText = new Label("Welcome to FeedForward", "AccountWelcomeText");
 
         Container topView = BoxLayout.encloseY(logoLabel, welcomeText, BorderLayout.centerAbsolute(darkModeButton));
         topView.setUIID("AccountTopView");

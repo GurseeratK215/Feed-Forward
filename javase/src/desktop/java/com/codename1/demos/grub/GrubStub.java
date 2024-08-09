@@ -21,7 +21,7 @@
  * need additional information or have any questions.
  */
 
-package com.codename1.demos.grub;
+package com.codename1.demos.FeedForward;
 
 import com.codename1.impl.javase.JavaSEPort;
 import com.codename1.ui.Display;
@@ -42,9 +42,9 @@ import javax.swing.SwingUtilities;
  *
  * @author Shai Almog
  */
-public class GrubStub implements Runnable, WindowListener {
+public class FeedForwardStub implements Runnable, WindowListener {
     private static final String APP_TITLE = "Hi World";
-    private static final String APP_NAME = "Grub";
+    private static final String APP_NAME = "FeedForward";
     private static final String APP_VERSION = "1.0";
     private static final int APP_WIDTH = 800;
     private static final int APP_HEIGHT = 600;
@@ -62,7 +62,7 @@ public class GrubStub implements Runnable, WindowListener {
     private static final String[] fontFaces = null;
 
     private static JFrame frm;
-    private Grub mainApp;
+    private FeedForward mainApp;
 
     /**
      * @param args the command line arguments
@@ -109,7 +109,7 @@ public class GrubStub implements Runnable, WindowListener {
         Display.getInstance().setProperty("Platform", System.getProperty("os.name"));
         Display.getInstance().setProperty("OSVer", System.getProperty("os.version"));
 
-        SwingUtilities.invokeLater(new GrubStub());
+        SwingUtilities.invokeLater(new FeedForwardStub());
     }
 
     public void run() {
@@ -144,7 +144,7 @@ public class GrubStub implements Runnable, WindowListener {
             @Override
             public void run() {
                 if(Display.getInstance().isEdt()) {
-                    mainApp = new Grub();
+                    mainApp = new FeedForward();
                     mainApp.init(this);
                     mainApp.start();
                     SwingUtilities.invokeLater(this);

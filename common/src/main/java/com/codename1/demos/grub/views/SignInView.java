@@ -34,6 +34,7 @@ import com.codename1.ui.validation.LengthConstraint;
 import com.codename1.ui.validation.RegexConstraint;
 import com.codename1.ui.validation.Validator;
 
+import static com.codename1.demos.grub.interfaces.Account.*;
 import static com.codename1.ui.CN.convertToPixels;
 import static com.codename1.ui.util.Resources.getGlobalResources;
 
@@ -50,7 +51,7 @@ public class SignInView<T extends Entity> extends AbstractEntityView<T> {
         setScrollVisible(false);
         setScrollableY(true);
         Label signInHeader = new Label("Welcome Back!", "SignInHeader");
-        Image grubLogo = getGlobalResources().getImage("grub-logo.png");
+        Image grubLogo = getGlobalResources().getImage("FeedForwardLogo.png");
         ScaleImageLabel logoLabel = new ScaleImageLabel(grubLogo);
         Container signInTopView = BoxLayout.encloseY(logoLabel, signInHeader);
         signInTopView.setUIID("SignInTopView");
@@ -74,11 +75,11 @@ public class SignInView<T extends Entity> extends AbstractEntityView<T> {
         validator.addSubmitButtons(confirmSignIn);
         confirmSignIn.addActionListener(evt -> {
             evt.consume();
-            entity.set(Account.firstName, "Codename");
+            entity.set(Account.firstName, "User");
             entity.set(Account.lastName, "One");
             entity.set(Account.emailAddress, emailAddress.getText());
             entity.set(Account.password, password.getText());
-            entity.set(Account.mobileNumber, "0542424242");
+            entity.set(mobileNumber, "0542424242");
 
             ActionNode action = applicationControllerViewNode.getInheritedAction(COMPLETE_SIGNING_IN);
             if (action != null) {

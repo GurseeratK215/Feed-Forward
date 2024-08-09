@@ -46,7 +46,7 @@ public class SignUpView extends AbstractEntityView {
         Container wrapper = new Container(new BorderLayout());
 
         Label signUpHeader = new Label("Create An Account", "SignUpHeader");
-        Image grubLogo = getGlobalResources().getImage("grub-logo.png");
+        Image grubLogo = getGlobalResources().getImage("FeedForwardlogo.png");
         ScaleImageLabel logoLabel = new ScaleImageLabel(grubLogo);
         Container signUpTopView = BoxLayout.encloseY(logoLabel, signUpHeader);
         signUpTopView.setUIID("SignUpTopView");

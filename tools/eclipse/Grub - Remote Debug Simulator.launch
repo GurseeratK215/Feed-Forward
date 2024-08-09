@@ -11,6 +11,6 @@
         <mapEntry key="hostname" value="localhost"/>
         <mapEntry key="port" value="8000"/>
     </mapAttribute>
-    <stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="grub-common"/>
-    <stringAttribute key="org.eclipse.jdt.launching.WORKING_DIRECTORY" value="${project_loc:grub}"/>
+    <stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="FeedForward-common"/>
+    <stringAttribute key="org.eclipse.jdt.launching.WORKING_DIRECTORY" value="${project_loc:FeedForward}"/>
 </launchConfiguration>

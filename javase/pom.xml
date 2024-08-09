@@ -2,15 +2,15 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <parent>
-      <groupId>com.codename1.demos.grub</groupId>
-      <artifactId>grub</artifactId>
+      <groupId>com.codename1.demos.FeedForward</groupId>
+      <artifactId>FeedForward</artifactId>
       <version>1.0-SNAPSHOT</version>
   </parent>
-  <groupId>com.codename1.demos.grub</groupId>
-  <artifactId>grub-javase</artifactId>
+  <groupId>com.codename1.demos.FeedForward</groupId>
+  <artifactId>FeedForward-javase</artifactId>
   <version>1.0-SNAPSHOT</version>
 
-  <name>grub-javase</name>
+  <name>FeedForward-javase</name>
   
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -81,7 +81,7 @@
           <id>executable-jar</id>
           <properties>
               <codename1.platform>javase</codename1.platform>
-              <exec.mainClass>com.codename1.demos.grub.GrubStub</exec.mainClass>
+              <exec.mainClass>com.codename1.demos.FeedForward.FeedForwardStub</exec.mainClass>
           </properties>
           <dependencies>
               <dependency>
@@ -205,7 +205,7 @@
           <id>run-desktop</id>
           <properties>
               <codename1.platform>javase</codename1.platform>
-              <exec.mainClass>com.codename1.demos.grub.GrubStub</exec.mainClass>
+              <exec.mainClass>com.codename1.demos.FeedForward.FeedForwardStub</exec.mainClass>
           </properties>
           <dependencies>
               <dependency>

@@ -11,13 +11,13 @@
   
   
   
-  <groupId>com.codename1.demos.grub</groupId>
+  <groupId>com.codename1.demos.FeedForward</groupId>
               
   
   
   
   
-  <artifactId>grub</artifactId>
+  <artifactId>FeedForward</artifactId>
               
   
   
@@ -35,13 +35,13 @@
   
   
   
-  <name>grub</name>
+  <name>FeedForward</name>
               
   
   
   
   
-  <description>grub</description>
+  <description>FeedForward</description>
               
   
   
@@ -171,7 +171,7 @@
     
     
     
-    <cn1app.name>grub</cn1app.name>
+    <cn1app.name>FeedForward</cn1app.name>
                             
         
         
