@@ -45,7 +45,7 @@ public class FirstIntroductionView extends AbstractEntityView {
         Container wrapper = new Container(new BorderLayout(BorderLayout.CENTER_BEHAVIOR_CENTER_ABSOLUTE));
         setUIID("IntroductionView");
 
-        Label header = new Label("Discover Restaurants", "IntroductionHeader");
+        Label header = new Label("30% of food is wasted", "IntroductionHeader");
 
         String imageName = Grub.isDarkMode() ? "first-intro-image-dark.png" : "first-intro-image.png";
         ScaleImageLabel introImage = new ScaleImageLabel(getGlobalResources().getImage(imageName)){
