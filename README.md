@@ -21,16 +21,10 @@ Node.js and npm (if working with the frontend),
 MongoDB,
 
 Setup:
-Clone the Repository,
-bash,
-Copy code,
 git clone https://github.com/yourusername/FeedForward.git,
-cd FeedForward,
-Backend Setup
+cd FeedForward
 
 Install dependencies:
-bash,
-Copy code,
 npm install
 
 Contributions
