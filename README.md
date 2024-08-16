@@ -31,14 +31,9 @@ Backend Setup
 Install dependencies:
 bash,
 Copy code,
-npm install,
-Run the development server:
-bash,
-Copy code,
-npm start
+npm install
 
-
-Contributing
+Contributions
 
 We welcome contributions to FeedForward! Please fork the repository, create a new branch for your feature or bug fix, and submit a pull request. Ensure your code follows the project's coding standards and passes all tests.
 
