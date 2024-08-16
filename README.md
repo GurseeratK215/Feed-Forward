@@ -14,26 +14,27 @@ Sustainability Reports: Track the impact of your donations and volunteer work ov
 
 Getting Started
 
-Prerequisites
-Java 8 or higher
-Maven
-Node.js and npm (if working with the frontend)
-MongoDB
-Setup
-Clone the Repository
-bash
-Copy code
-git clone https://github.com/yourusername/FeedForward.git
-cd FeedForward
+Prerequisites:
+Java 8 or higher,
+Maven,
+Node.js and npm (if working with the frontend),
+MongoDB,
+
+Setup:
+Clone the Repository,
+bash,
+Copy code,
+git clone https://github.com/yourusername/FeedForward.git,
+cd FeedForward,
 Backend Setup
 
 Install dependencies:
-bash
-Copy code
-npm install
+bash,
+Copy code,
+npm install,
 Run the development server:
-bash
-Copy code
+bash,
+Copy code,
 npm start
 
 
